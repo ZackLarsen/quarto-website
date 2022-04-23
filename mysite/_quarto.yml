@@ -14,16 +14,15 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Basics"
+      - section: "Quarto project"
         contents:
           - index.qmd
-          - basics-knitr.qmd
-          - basics-jupyter.qmd
-      - section: "Layout"
+          - quarto-proj.qmd
+      - section: "Quarto website"
         contents:
-          - layout.qmd
-          - layout-knitr.qmd
-          - layout-jupyter.qmd
+          - quarto-web.qmd
+  listing:
+    contents: posts
 
 format:
   html:
